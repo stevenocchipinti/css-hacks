@@ -57,3 +57,30 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
 }
+
+
+/*==================================================
+ * Caption
+ * ref: http://web.enavu.com/tutorials/making-image-overlay-caption-using-css/
+ * ===============================================*/
+
+div.box {
+  position:relative; /* important(so we can absolutely position the description div */
+}
+div.description{
+  position:absolute; /* absolute position (so we can position it where we want)*/
+  bottom:0px; /* position will be on bottom */
+  left:0px;
+  width:100%;
+  font-family: 'tahoma';
+  font-size:15px;
+  color:white;
+  background: -webkit-linear-gradient( top, rgba( 0, 0, 0, 0 ) 0%, rgba( 0, 0, 0, 1 ) 140% );
+  height: 50px;
+}
+p.description-content{
+  position: absolute;
+  bottom: 0px;
+  padding:10px;
+  margin:0px;
+}
