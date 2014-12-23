@@ -1,5 +1,9 @@
+/*==================================================
+ * Pattern background
+ * ref: http://subtlepatterns.com/navy/
+ * ===============================================*/
 body {
-  background-color: #444;
+  background: url('/img/background-tile.png') repeat;
 }
 
 /*==================================================
