@@ -1,13 +1,16 @@
-.box {
-  display: block;
-  width: 320px;
-  margin:40px auto;
+body {
+  background-color: #444;
 }
 
 /*==================================================
- * Effect 2
+ * Shadow Effect
  * ref: http://www.paulund.co.uk/creating-different-css3-box-shadows-effects
  * ===============================================*/
+.box {
+  display: block;
+  margin: 20px auto;
+}
+
 .shadow-effect
 {
   position: relative;
@@ -22,10 +25,10 @@
   width: 50%;
   top: 80%;
   max-width:300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
+  background: #000;
+  -webkit-box-shadow: 0 15px 10px #000;
+  -moz-box-shadow: 0 15px 10px #000;
+  box-shadow: 0 15px 10px #000;
   -webkit-transform: rotate(-3deg);
   -moz-transform: rotate(-3deg);
   -o-transform: rotate(-3deg);
@@ -41,4 +44,16 @@
   transform: rotate(3deg);
   right: 10px;
   left: auto;
+}
+
+
+/*==================================================
+ * Center and Crop
+ * ref: https://stackoverflow.com/questions/11552380/how-to-automatically-crop-and-center-an-image
+ * ===============================================*/
+.center-cropped {
+  width: 320px;
+  height: 100px;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
