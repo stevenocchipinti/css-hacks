@@ -3,7 +3,7 @@
  * ref: http://subtlepatterns.com/navy/
  * ===============================================*/
 body {
-  background: url('/img/background-tile.png') repeat;
+  background: url('img/background-tile.png') repeat;
 }
 
 /*==================================================
